@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bg.png);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    width: 296px;
+    height: 62px;
+    display: block;
+    font-size: 24px;
+    border: none;
+    margin-bottom: 30px;
+    background-color: #7ab219;
+    color: #fff;
+}
+
+/*убираем у последнего :last-child отступ снизу*/
+.buttons button:last-child {
+    margin-bottom: 0;
+}
+
+.buttons .btn-red {
+    background-color: #d8392b;
+}
+
